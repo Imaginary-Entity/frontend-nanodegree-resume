@@ -1,4 +1,8 @@
+var awesomeThoughts = "I am Warren and I am awesome!";
+console.log(awesomeThoughts);
 
-$("#main").append("Warren");
-var = awesomeThoughts "My name is Warren and I am awesome";
-console.log (awesomeThoughts);
+var funThoughts =
+	awesomeThoughts.replace("Warren", "Mr Blobby");
+
+console.log(awesomeThoughts);
+console.log(funThoughts);
