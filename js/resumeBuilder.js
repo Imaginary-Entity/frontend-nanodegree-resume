@@ -1,8 +1,11 @@
-var awesomeThoughts = "I am Warren and I am awesome!";
-console.log(awesomeThoughts);
+var name ="Warren";
+var formattedName = HTMLheaderName.replace(
+	"%data%", name);
 
-var funThoughts =
-	awesomeThoughts.replace("Warren", "Mr Blobby");
+$("#header").append(formattedName);
 
-console.log(awesomeThoughts);
-console.log(funThoughts);
+var role ="Web Developer";
+var formattedRole = HTMLheaderRole.replace(
+	"%data%", role);
+
+$("#header").append(formattedRole);
